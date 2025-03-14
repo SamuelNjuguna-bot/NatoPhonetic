@@ -12,6 +12,7 @@ function App() {
 
   function handlePhoneticParagraph(e) {
     character = e.target.value;
+    character.toLowerCase()
     setCharacter(character);
     const natoAlphabet = {
       A: "Alpha",
