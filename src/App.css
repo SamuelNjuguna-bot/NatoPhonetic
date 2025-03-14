@@ -1,0 +1,28 @@
+.phonetic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: rgb(222, 201, 205);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.inputVal {
+  padding: 2rem 15rem;
+  outline: none;
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.output {
+  font-size: 2rem;
+  font-weight: 500;
+}
